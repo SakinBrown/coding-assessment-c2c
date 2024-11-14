@@ -5,7 +5,7 @@ import dockingBays as db
 # Function to print docking bays information
 def print_docking_bays():
     print("Docking Bays:")
-    for bay in db.docking_bays:
+    for bay in db.docking_bays[]:
         print(f"Bay {bay['bay_id']} - Size: {bay['size']}, Schedule: {bay['schedule']}")
 
 # Function to print incoming ships information
