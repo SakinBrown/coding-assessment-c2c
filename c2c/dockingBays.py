@@ -114,34 +114,34 @@ def level1():
     elif incoming_ships[{'large'}] == docking_bays[4]:
         print('Dock Ready!')
 
-    def level2():
-        if incoming_ships[{'10:00'}] == docking_bays[0]:
-            print('Just in time!')
-        elif incoming_ships[{'10:00'}] == docking_bays[2]:
-            print('Not Opened Yet!')
-        elif incoming_ships[{'10:00'}] == docking_bays[4]:
-            print('Not Opened Yet')
-        elif incoming_ships[{'12:00'}] == docking_bays[0]:
-            print('Opened')
-        elif incoming_ships[{'12:00'}] == docking_bays[2]:
-            print('Not Ready!')
-        elif incoming_ships[{'12:00'}] == docking_bays[4]:
-            print('Too late!')
-        elif incoming_ships[{'13:00'}] == docking_bays[0]:
-            print('Too Full')
-        elif incoming_ships[{'13:00'}] == docking_bays[2]:
-            print('Opened')
-        elif incoming_ships[{'13:00'}] == docking_bays[4]:
-            print('Not Ready!')
-        elif incoming_ships[{'14:00'}] == docking_bays[0]:
-            print('Too late!')
-        elif incoming_ships[{'14:00'}] == docking_bays[2]:
-            print('Not Ready')
-        elif incoming_ships[{'14:00'}] == docking_bays[4]:
-            print('Opened!')
-        elif incoming_ships[{'16:00'}] == docking_bays[0]:
-            print('Opened!')
-        elif incoming_ships[{'16:00'}] == docking_bays[2]:
-            print('Not Ready')
-        elif incoming_ships[{'16:00'}] == docking_bays[4]:
-            print('Opened!')
+def level2():
+    if incoming_ships[{'10:00'}] == docking_bays[0]:
+        print('Just in time!')
+    elif incoming_ships[{'10:00'}] == docking_bays[2]:
+        print('Not Opened Yet!')
+    elif incoming_ships[{'10:00'}] == docking_bays[4]:
+        print('Not Opened Yet')
+    elif incoming_ships[{'12:00'}] == docking_bays[0]:
+        print('Opened')
+    elif incoming_ships[{'12:00'}] == docking_bays[2]:
+        print('Not Ready!')
+    elif incoming_ships[{'12:00'}] == docking_bays[4]:
+        print('Too late!')
+    elif incoming_ships[{'13:00'}] == docking_bays[0]:
+        print('Too Full')
+    elif incoming_ships[{'13:00'}] == docking_bays[2]:
+        print('Opened')
+    elif incoming_ships[{'13:00'}] == docking_bays[4]:
+        print('Not Ready!')
+    elif incoming_ships[{'14:00'}] == docking_bays[0]:
+        print('Too late!')
+    elif incoming_ships[{'14:00'}] == docking_bays[2]:
+        print('Not Ready')
+    elif incoming_ships[{'14:00'}] == docking_bays[4]:
+        print('Opened!')
+    elif incoming_ships[{'16:00'}] == docking_bays[0]:
+        print('Opened!')
+    elif incoming_ships[{'16:00'}] == docking_bays[2]:
+        print('Not Ready')
+    elif incoming_ships[{'16:00'}] == docking_bays[4]:
+        print('Opened!')
